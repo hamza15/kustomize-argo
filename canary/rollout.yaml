@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: rollouts-demo
-        image: sardan5/drone-demo:v-20
+        image: sardan5/drone-demo:v-21
         ports:
         - name: http
           containerPort: 3000
