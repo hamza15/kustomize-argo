@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: visualize-ci-app
-        image: sardan5/drone-demo:v-9
+        image: docker.io/sardan5/drone-demo:v-9
         ports:
         - containerPort: 3000
