@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: visualize-ci-deployment
 spec:
+  revisionHistoryLimit: 1
   selector:
     matchLabels:
       app: visualize-ci-app
