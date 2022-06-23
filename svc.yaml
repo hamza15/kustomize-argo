@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: visualize-ci-service
+spec:
+  selector:
+    app: visualize-ci-app
+  ports:
+  - port: 3000
+    protocol: TCP
+    targetPort: 3000
+  type: LoadBalancer
