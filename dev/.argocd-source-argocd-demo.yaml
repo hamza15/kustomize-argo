@@ -1,1 +1,1 @@
-kustomize: images: - docker.io/sardan5/drone-demo:v-24
+kustomize: images: - docker.io/sardan5/drone-demo:v-72
